@@ -6,4 +6,10 @@ class Dog
     @name
   end
 
+  def self.all 
+    @@all.each do |name|
+      name 
+    end 
+  end 
+
 end
