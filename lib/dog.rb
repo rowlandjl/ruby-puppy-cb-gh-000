@@ -6,10 +6,10 @@ class Dog
     @name
   end
 
-  def self.all 
+  def self.all
     @@all.each do |name|
-      name 
-    end 
+      name
+    end
   end 
 
 end
