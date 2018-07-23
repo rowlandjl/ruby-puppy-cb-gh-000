@@ -9,12 +9,12 @@ class Dog
 
   def self.all
     @@all.each do |name|
-      puts name.name 
+      puts name.name
     end
   end
 
   def self.clear_all
-    @@all.clear 
+    @@all.clear
   end 
 
 end
